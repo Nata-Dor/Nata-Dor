@@ -28,9 +28,11 @@ jobs:
           base: header
           base_indepth: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
+          user: nata-dor
           output_action: gist
           retries: 1
-          committer_gist: ${{ secrets.GIST }}
+          #committer_gist: ${{ secrets.GIST }}
+          committer_gist: fabee103116ed14c71db2ede79e61930
           plugin_isocalendar: yes
           plugin_languages: yes
           # plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, python, ejs
